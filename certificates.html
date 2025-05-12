@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osama Mikrani - Certificates</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .certificates-container {
+            padding: 120px 0 60px;
+            min-height: 100vh;
+            background-color: var(--bg-color);
+        }
+
+        .certificates-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .certificate-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+
+        .certificate-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .certificate-image {
+            position: relative;
+            height: 250px;
+            overflow: hidden;
+        }
+
+        .certificate-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .certificate-card:hover .certificate-image img {
+            transform: scale(1.1);
+        }
+
+        .certificate-content {
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .certificate-content h3 {
+            color: var(--text-color);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .certificate-content p {
+            color: var(--text-color);
+            opacity: 0.8;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .certificate-date {
+            color: var(--primary-color);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .back-button:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        @media (max-width: 768px) {
+            .certificates-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                padding: 1rem;
+                gap: 1.5rem;
+            }
+
+            .certificate-image {
+                height: 200px;
+            }
+
+            .back-button {
+                top: 15px;
+                left: 15px;
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .certificates-grid {
+                grid-template-columns: 1fr;
+                padding: 0.5rem;
+            }
+
+            .certificate-image {
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-button">
+        <i class="fas fa-arrow-left"></i> Back to Portfolio
+    </a>
+
+    <div class="certificates-container">
+        <div class="section-header">
+            <h2>My Certificates</h2>
+            <h3>Professional Achievements</h3>
+        </div>
+        
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="images/Certi1.png" alt="Certificate 1">
+                </div>
+                <div class="certificate-content">
+                    <h3>DSA in JAVA</h3>
+                    <p>Completed from Apna college</p>
+                    <!-- <span class="certificate-date">2023</span> -->
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="images/Certi2.png" alt="Certificate 2">
+                </div>
+                <div class="certificate-content">
+                    <h3>Full-stack Development</h3>
+                    <p>6 week bootcamp from GFG</p>
+                    <!-- <span class="certificate-date">2023</span> -->
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="images/Certi3.png" alt="Certificate 3">
+                </div>
+                <div class="certificate-content">
+                    <h3>Appricitation certificate</h3>
+                    <p>DevTown Community</p>
+                    <span class="certificate-date">2023</span>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="images/Certi4.png" alt="Certificate 4">
+                </div>
+                <div class="certificate-content">
+                    <h3>Genrative AI with Nxtwave</h3>
+                    <p>Certificate of Participation</p>
+                    <span class="certificate-date">2023</span>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="images/Certi5.png" alt="Certificate 5">
+                </div>
+                <div class="certificate-content">
+                    <h3>Programming in Python</h3>
+                    <p>Course from kaggle</p>
+                    <span class="certificate-date">2023</span>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="images/Certi6.png" alt="Certificate 6">
+                </div>
+                <div class="certificate-content">
+                    <h3>Prompt Engineering</h3>
+                    <p>Cognitive Class</p>
+                    <span class="certificate-date">2023</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
