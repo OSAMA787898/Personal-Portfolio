@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osama Mikrani - Web Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home" class="name-logo">
+                    <img src="images/profile.jpg" alt="Osama Mikrani" class="profile-img">
+                    <span>Osama Mikrani</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-image">
+                    <img src="images/profile.jpg" alt="Osama Mikrani">
+                </div>
+            </div>
+            <div class="hero-right">
+                <h1>Web Developer & Designer</h1>
+                <p>Creating beautiful, responsive websites with modern technologies and best practices</p>
+                <div class="hero-buttons">
+                    <a href="Resume.pdf" class="cta-button resume-btn" target="_blank">
+                        <i class="fas fa-eye"></i> View Resume
+                    </a>
+                    <a href="certificates.html" class="cta-button certificates-btn" target="_blank">
+                        <i class="fas fa-certificate"></i> Certificates
+                    </a>
+                    <a href="#contact" class="cta-button contact-btn">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-column">
+                    <div class="about-card">
+                        <i class="fas fa-user"></i>
+                        <h4>About Me</h4>
+                        <p>I am a passionate web developer with a keen eye for designing visually appealing and user-friendly interfaces. With over two years of experience in web development, I have successfully completed multiple projects and maintain a portfolio website showcasing my work.</p>
+                    </div>
+                </div>
+                <div class="about-column">
+                    <div class="about-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>College Education</h4>
+                        <p>Currently in third year, sixth semester pursuing Bachelor of Engineering in Computer Science at Channabasaweshwara Institute of Technology.</p>
+                        <div class="education-detail">
+                            <span class="detail-label">CGPA:</span>
+                            <span class="detail-value">8.2</span>
+                        </div>
+                        <div class="education-detail">
+                            <span class="detail-label">Semester:</span>
+                            <span class="detail-value">6th</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-column">
+                    <div class="about-card">
+                        <i class="fas fa-school"></i>
+                        <h4>School Education</h4>
+                        <p>Completed 10th & 12th grade at Krishna Vidhyalaya Mandir (KVM) in Haldwani, Nainital.</p>
+                        <div class="education-detail">
+                            <span class="detail-label">10th:</span>
+                            <span class="detail-value">64.5%</span>
+                            <span class="detail-label">12th:</span>
+                            <span class="detail-value">68.5%</span>
+                        </div>
+                        <div class="education-detail">
+                            <span class="detail-label">School:</span>
+                            <span class="detail-value">KVM Haldwani</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <h3>Web Development Expertise</h3>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Frontend Development</h4>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level" data-level="95">95%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level" data-level="90">90%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level" data-level="85">85%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React.js</span>
+                            <div class="skill-level" data-level="80">80%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                            <div class="skill-level" data-level="85">85%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Backend Development</h4>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                            <div class="skill-level" data-level="85">85%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express.js</span>
+                            <div class="skill-level" data-level="80">80%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                            <div class="skill-level" data-level="80">80%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>MongoDB</span>
+                            <div class="skill-level" data-level="75">75%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>REST APIs</span>
+                            <div class="skill-level" data-level="85">85%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Tools & Technologies</h4>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-level" data-level="85">85%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                            <div class="skill-level" data-level="90">90%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-npm"></i>
+                            <span>npm</span>
+                            <div class="skill-level" data-level="80">80%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive Design</span>
+                            <div class="skill-level" data-level="90">90%</div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span>Version Control</span>
+                            <div class="skill-level" data-level="85">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <h3>Recent Work</h3>
+            </div>
+
+            <!-- Minor Projects Section -->
+            <div class="section-header">
+                <h2>Minor Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/image1.jpg" alt="E-commerce Platform">
+                    </div>
+                    <div class="project-content">
+                        <h4>College Management System</h4>
+                        <p>This project is a student management system that uses structs and file handling to store, search, modify, and display student records. It primarily utilizes linear search and file-based data storage, but can be optimized with binary search or hashing for better efficiency.</p>
+                        <div class="project-tech">
+                            <span>C</span>
+                            <span>DSA</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/OSAMA787898/College-Management-System-using-DSA-in-C-CMS-" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/image2.jpg" alt="Social Media Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h4>Shortest-Path-finding-Between-Metro-Stations-Project-main</h4>
+                        <p>The Delhi Metro Route Finder is a Java-based program that helps users determine the shortest metro route and fare between two stations. It utilizes Graph and Heap data structures, where stations are represented as nodes and distances as edges. Algorithms like Dijkstra, BFS, and DFS are used to find the shortest path, and the fare is calculated based on the total distance traveled. The program includes a metro map for better navigation, making it a useful tool for commuters.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Java Standard Libraries </span>
+                            <span>DSA</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/OSAMA787898/Shortest-Path-finding-Between-Metro-Stations-Project-main" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/image3.jpg" alt="Spam Email Detection">
+                    </div>
+                    <div class="project-content">
+                        <h4>Spam-E-mail-Detection-using-Machine-Learning</h4>
+                        <p>In this project, I have developed a robust Spam Email Detection System leveraging various machine learning algorithms. The primary goal of this project is to classify emails as spam or non-spam (ham) with high accuracy, ensuring an efficient and automated filtering mechanism to enhance user experience and security.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/OSAMA787898/Spam-E-mail-Detection-using-Machine-Learning." class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/spotify-image.avif" alt="Spotify-website">
+                    </div>
+                    <div class="project-content">
+                        <h4>Spotify-Clone</h4>
+                        <p>I developed a responsive Spotify clone using HTML and CSS, ensuring seamless adaptability across various devices.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/OSAMA787898/Spotify-Clone" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Major Projects Section -->
+            <div class="section-header">
+                <h2>Major Projects</h2>
+                <p class="section-subtitle">Premium projects available after payment</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card locked-card no-image">
+                    <div class="project-image">
+                        <img src="images/Zerodha1.png" alt="Zerodha APP">
+                    </div>
+                    <div class="project-content">
+                        <div class="lock-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h4>Zerodha APP </h4>
+                        <p>A full-stack e-commerce platform with advanced features including user authentication, product management, shopping cart, and payment integration.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project1" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#contact" class="project-link unlock-link">
+                                <i class="fas fa-unlock"></i> Unlock Full Access
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card locked-card no-image">
+                    <div class="project-image">
+                        <img src="images/Linkedin2.png" alt="LinkedIn Clone">
+                    </div>
+                    <div class="project-content">
+                        <div class="lock-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h4>Linkdin Clone</h4>
+                        <p>A comprehensive social media management platform with analytics, scheduling, and engagement tracking features.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project2" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#contact" class="project-link unlock-link">
+                                <i class="fas fa-unlock"></i> Unlock Full Access
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card locked-card no-image">
+                    <div class="project-image">
+                        <img src="images/Zoom3.jpg" alt="Zoom Clone">
+                    </div>
+                    <div class="project-content">
+                        <div class="lock-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h4>Zoom Clone</h4>
+                        <p>An advanced analytics platform with machine learning capabilities for data visualization and predictive analysis.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project3" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#contact" class="project-link unlock-link">
+                                <i class="fas fa-unlock"></i> Unlock Full Access
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <h3>What Services We Provide to Our Customers</h3>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Data Security</h4>
+                    <p>We provide top-tier data security solutions to protect your business assets.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Advanced Analytics</h4>
+                    <p>Transform your data into actionable insights with our analytics solutions.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-headset"></i>
+                    <h4>24/7 Support</h4>
+                    <p>Round-the-clock technical support for your peace of mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section 
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Team</h2>
+                <h3>Meet Our Expert Team Members</h3>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="images/team1.jpg" alt="Team Member">
+                    <h4>Rayhan Khan</h4>
+                    <p>Team Leader</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team2.jpg" alt="Team Member">
+                    <h4>Metton Alex</h4>
+                    <p>Founder</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team3.jpg" alt="Team Member">
+                    <h4>Sarah Johnson</h4>
+                    <p>Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <h3>Get In Touch</h3>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Address</h4>
+                        <p>Bengaluru, India</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>(+91) 701 744 4946</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>07osamakhan@gmail.com</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" onsubmit="return handleFormSubmit(event)">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="loading-spinner" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="images/profile.jpg" alt="Osama Mikrani" class="footer-profile">
+                        <h3>Osama Mikrani</h3>
+                        <p>Full Stack Developer</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/OSAMA787898" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://in.linkedin.com/in/osama-mikrani-94359b276" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <!-- <a href="#" class="social-link"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.facebook.com/public/Osama-Liyakat/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/osama_liyakat/" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> 07osamakhan@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 701 744 4946</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Banglore, Karnataka,India/p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Osama Mikrani. All Rights Reserved</p>
+                    <p>Crafted with <i class="fas fa-heart"></i> by Osama Mikrani</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+        <form name="submit-to-google-sheet">
+        <!-- <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button> -->
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby1o_PD6Sx7D9hITnATjzWFTifJ8cM1hyY8AcDLx6PceSl7W_nQIzySBI_Px2Oj0-kZ/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html> 
